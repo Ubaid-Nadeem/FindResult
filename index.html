@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Find Result </title>
+</head>
+
+<body>
+    <div class="main">
+
+
+        <div class="findResult">
+            <h1>Find Result</h1>
+            <input type="text" id="studentId" />
+            <button id="find">search    </button>
+        </div>
+
+        <div class="resultDiv" id="resultDiv">
+            <h1>Result</h1>
+            <div style="display: flex;">
+
+                <div class="childDiv1">
+                    <h4>Name</h4>
+                    <h4>Roll Number</h4>
+                    <h4>percentile</h4>
+                    <h4>Rank</h4>
+                    <h4>Test Missed</h4>
+                    <h4>Grade</h4>
+                </div>
+
+                <div class="childDiv2" style="color: #16a085;">
+                    <h4 id="name"></h4>
+                    <h4 id="rollNumber"></h4>
+                    <h4 id="percentile"></h4>
+                    <h4 id="rank"></h4>
+                    <h4 id="testMissed"></h4>
+                    <h4 id="grade"></h4>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="resultNotFound" style="text-align: center;">
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
